@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Secular+One&family=Tilt+Neon&family=Tilt+Warp&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .zoom-1 {
+    zoom: 1;
+  }
+}
+
+@font-face {
+  font-family: 'DiscordCodeBlock';
+  src: url(/Menlo-Regular.ttf);
+  src: url(/monaco.ttf);
+}
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth !important;
+  outline: none !important;
+  border: none !important;
+}
+
