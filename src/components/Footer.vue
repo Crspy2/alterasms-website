@@ -1,5 +1,5 @@
 <template>
-<footer class="mx-auto ml-1 mt-32 w-full max-w-container px-4 sm:px-6 lg:px-8">
+<footer class="mx-auto mt-32 w-full max-w-container">
    <div class="border-t border-zinc-100/20 py-10">
       <div class="flex -ml-5 flex-row mx-auto h-5 w-auto text-slate-900 place-content-center">
          <img src="../assets/altera-circle.png" class="w-9 h-9"/>
