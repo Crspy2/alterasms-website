@@ -1,7 +1,7 @@
 <template>
     <div class="mt-[36rem] md:mt-[28rem] lg:mt-32">
         <h1 class="text-5xl font-bold uppercase text-center -mt-32 pt-32 text-white font-warp text-transparent bg-clip-text bg-gradient-to-r from-[#ff0058] to-[#03a9f4]">Purchase Credits</h1>
-        <div class="container lg:ml-[6rem]">
+        <div class="container ml-[1rem] lg:ml-[6rem]">
             <div class="box">
                 <span></span>
                 <div class="content">
