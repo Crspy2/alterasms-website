@@ -1,6 +1,6 @@
 <template>
     <div class="mt-32">
-        <h1 class="text-5xl font-bold uppercase text-center -mt-32 pt-32 text-white font-warp">Purchase</h1>
+        <h1 class="text-5xl font-bold uppercase text-center -mt-32 pt-32 text-white font-warp text-transparent bg-clip-text bg-gradient-to-r from-[#ff0058] to-[#03a9f4]">Purchase Credits</h1>
         <div class="container">
             <div class="box">
                 <span></span>
