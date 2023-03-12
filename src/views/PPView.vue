@@ -25,7 +25,7 @@
                 <p class="text-zinc-200 text-sm">
                     We do not automatically record any data that your browser sends us when you first load up 
                     our website. However, once you make a purchase, we record the following information your 
-                    browser sends us: your device's IP address, browser type and versiona and operating system 
+                    browser sends us: your device's IP address, browser type and version and operating system 
                     type and version. This information is kept during your purchase to authenticate your 
                     payment and help our anti-fraud systems prevent malicious payments. After your payment 
                     is completed, our payment manager (Sellix.io) will store your information in case of a 
