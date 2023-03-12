@@ -55,6 +55,53 @@
                     of the payment.
                 </p>
             </div>
+            <div class="mt-10">
+                <h3 class="text-white text-xl mb-5 font-extrabold font-neon">Managing personal information</h3>
+                <p class="text-zinc-200 text-sm">
+                    All personal information stored in our databases are <strong>read only</strong>. Not even our
+                    staff, owners or developers can alter the information. If you wish to see what information we 
+                    are currently storing for your account, join our discord server and execute the /userdata command.
+                </p>
+            </div>
+            <div class="mt-10">
+                <h3 class="text-white text-xl mb-5 font-extrabold font-neon">Use and processing of collected information</h3>
+                <p class="text-zinc-200 text-sm">
+                    All the information we store in our databases contains your discordID, your current balance, 
+                    your redeemed invoiceIDs, your last deposit timestamp and information about the last number you
+                    generated. This data is crutial to the functionality of our software as it allows us to 
+                    identify customers by their discord accounts and allow them to check sms codes from 
+                    numbers they have generated.
+                </p>
+            </div>
+            <div class="mt-10">
+                <h3 class="text-white text-xl mb-5 font-extrabold font-neon">Legal disclosure</h3>
+                <p class="text-zinc-200 text-sm">
+                    We will disclose any information we collect, use or receive if required or permitted by 
+                    law, such as to comply with a subpoena, or similar legal process, and when we believe in 
+                    good faith that disclosure is necessary to protect our rights, protect your safety or the 
+                    safety of others, investigate fraud, or respond to a government request. In the event we 
+                    go through a business transition, such as a merger or acquisition by another company, or 
+                    sale of all or a portion of its assets, your user account and personal data will likely 
+                    be among the assets transferred.
+                </p>
+            </div>
+            <div class="mt-10">
+                <h3 class="text-white text-xl mb-5 font-extrabold font-neon">Changes and amendments</h3>
+                <p class="text-zinc-200 text-sm">
+                    We reserve the right to modify this privacy policy relating to the Website or the discord
+                    bot at any time, effective upon posting of an updated version of this Policy on the 
+                    Website. When we do we will revise the updated date at the bottom of this page. Continued 
+                    use of the Website after any such changes shall constitute your consent to such changes.
+                </p>
+            </div>
+            <div class="mt-10">
+                <h3 class="text-white text-xl mb-5 font-extrabold font-neon">Acceptance of this policy</h3>
+                <p class="text-zinc-200 text-sm">
+                    You acknowledge that you have read this Policy and agree to all its terms and conditions. 
+                    By using the discord bot you agree to be bound by this Policy. If you do not agree to 
+                    abide by the terms of this Policy, you are not authorized to use or access the Website.
+                </p>
+            </div>
         </div>
     </div>
 </template>
