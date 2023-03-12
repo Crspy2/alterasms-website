@@ -125,9 +125,8 @@
   }
 }
 
-/* Parent wrapper */
 .wrapper {
-  padding-top: 7rem;
+  padding-top: 29rem;
   gap: calc(clamp(10rem, 1rem + 40vmin, 30rem) / 14);
   margin: auto;
   max-width: 72rem;

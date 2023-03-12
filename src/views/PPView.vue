@@ -2,7 +2,7 @@
     <div class="pt-40 text-center">
         <h1 class="text-white font-warp font-bold text-5xl">Privacy Policy</h1>
         <p class="text-zinc-300 font-neon text-xl">Last Updated on March 11, 2023</p>
-        <div class="max-w-2xl mx-auto text-left mt-24">
+        <div class="max-w-2xl px-5 mx-auto text-left mt-24">
             <p class="text-zinc-200 text-sm">
                 This privacy policy ("Policy") describes how Altera SMS collects, protects and uses the 
                 personally identifiable information ("Personal Information") you ("User", "you" or "your") 

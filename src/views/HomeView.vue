@@ -6,12 +6,14 @@ import Services from '../components/Services.vue';
 </script>
 
 <template>
-  <Header />
-  <section id="about">
-    <Features/>
-  </section>
-  <Services />
-  <section id="purchase">
-    <Purchase />
-  </section>
+  <div>
+    <Header />
+    <section id="about">
+      <Features/>
+    </section>
+    <Services />
+    <section id="purchase">
+      <Purchase />
+    </section>
+  </div>
 </template>

@@ -4,7 +4,9 @@ import Cards from './Cards.vue';
 
 <template>
     <div class="py-32 h-screen" id="features">
-        <div class="text-5xl font-bold uppercase text-center mb-12 text-white font-warp">An SMS platform built on your satisfaction</div>
+        <h1 class="text-5xl font-bold uppercase text-center mb-12 text-white font-warp">
+            An SMS platform built on your satisfaction
+        </h1>
         <div class="w-full py-10 px-[10%] box-border ">
             <div class="clear-both p-0 m-0 zoom-1 after:clear-both after:content-[''] after:table before:content-[''] before:table">
                 <div class="block box-border float-left my-[1%] mx-0 lg:my-[1%] lg:mr-0 lg:ml-[1.6%] first:ml-0 span_1_of_2">
@@ -15,7 +17,7 @@ import Cards from './Cards.vue';
                         Our staff, devs and owners are experienced in customer support and guarantee your satisfaction. We've managed to gain our reputation by keeping customers happy with our services.
                     </div>
                 </div>
-                <div class="block box-border float-left my-[1%] mx-0 lg:my-[1%] lg:mr-0 lg:ml-[1.6%] first:ml-0 span_1_of_2">
+                <div class="block box-border min-w-[380px] float-left my-[1%] mx-0 lg:my-[1%] lg:mr-0 lg:ml-[1.6%] first:ml-0 span_1_of_2">
                     <div class="text-center select-none">
                         <div class="w-full h-auto duration-200 box-border hover:scale-[1.02] mt-30 mb-0 mx-auto">
                             <div class="shadow-bg w-[250px] h-auto p-2.5 rounded inline-block bg-zinc-800 text-left">
@@ -59,11 +61,11 @@ import Cards from './Cards.vue';
                                 <div class="text-sm font-neon font-semibold text-[#cd5073] text-left">Customer</div>
                                 <div class="font-neon rounded-[5px] shadow-bg p-2 text-xs w-[170px] bg-zinc-800 text-left text-white">I can't figure out how to check my balance!</div>
                             </div>
-                            <div class="text-left float-left mt-16">
+                            <div class="text-left float-left sm:mt-16">
                                 <div class="text-sm font-neon font-semibold text-[#cd5073] text-left">Staff</div>
                                 <div class="font-neon rounded-[5px] shadow-bg p-2 text-xs w-[170px] bg-zinc-800 text-left text-white">Try running the /balance command!</div>
                             </div>
-                            <div class="mt-[160px] text-sm opacity-70 text-left font-neon font-semibold text-[#cd5073]"><span class="saving"><span>.</span><span>.</span><span>.</span>
+                            <div class="xs:mt-[170px] mt-[160px] text-sm opacity-70 text-left font-neon font-semibold text-[#cd5073]"><span class="saving"><span>.</span><span>.</span><span>.</span>
                                     Staff is typing</span></div>
                             <input class="font-neon rounded p-2 text-sm w-full box-border shadow-bg bg-zinc-800 text-gray-200 text-left outline-none border-none ring-0 focus:ring-0" placeholder="Message #ticket-customer" />
                         </div>
@@ -80,22 +82,22 @@ import Cards from './Cards.vue';
                 </div>
             </div>
         </div>
-    </div>
-    <div class="w-full top-6 py-10 px-[10%] box-border">
-            <div class="flex-row hidden lg:flex clear-both p-0 m-0 zoom-1 after:clear-both after:content-[''] after:table before:content-[''] before:table">
-                <div class="block box-border float-left my-[1%] mx-0 lg:my-[1%] lg:mr-0 lg:ml-[1.6%] first:ml-0 span_1_of_2">
-                    <div class="text-3xl text-white font-extrabold">
-                        Accepting Various Payment Methods
+        <div class="w-full py-10 px-[10%] box-border">
+                <div class="flex-row hidden lg:flex clear-both p-0 m-0 zoom-1 after:clear-both after:content-[''] after:table before:content-[''] before:table">
+                    <div class="block box-border float-left my-[1%] mx-0 lg:my-[1%] lg:mr-0 lg:ml-[1.6%] first:ml-0 span_1_of_2">
+                        <div class="text-3xl text-white font-extrabold">
+                            Accepting Various Payment Methods
+                        </div>
+                        <div class="text-lg opacity-90 mt-2.5 font-light text-white max-w-xl">
+                            To accomodate all our customer's needs, we accept payments from many popular gateways such as Stripe, PayPal, CashApp and many Cryptos.
+                        </div>
                     </div>
-                    <div class="text-lg opacity-90 mt-2.5 font-light text-white max-w-xl">
-                        To accomodate all our customer's needs, we accept payments from many popular gateways such as Stripe, PayPal, CashApp and many Cryptos.
+                    <div class="mt-8 ml-32 animate-hover">
+                        <Cards />
                     </div>
                 </div>
-                <div class="mt-8 ml-32 animate-hover">
-                    <Cards />
-                </div>
-            </div>
         </div>
+    </div>
 </template>
 
 <style scoped>

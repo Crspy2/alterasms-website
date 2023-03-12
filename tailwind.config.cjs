@@ -12,6 +12,28 @@ module.exports = {
       'discord': ['Nunito\\ Sans', 'sans-serif'],
       'discordCode': ['DiscordCodeBlock', 'monospace']
     },
+    screens: {
+      'xs': '400px',
+      // => @media (min-width: 400px) { ... }
+
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1150',
+      // => @media (min-width: 1150px) { ... }
+
+      '2xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
     extend: {
       boxShadow: {
         'bg': '0 5px 36px 0px rgba(0, 0, 0, .3)',
