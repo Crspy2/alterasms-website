@@ -1,7 +1,7 @@
 <template>
-    <div class="mt-32">
+    <div class="mt-[45rem] lg:mt-32">
         <h1 class="text-5xl font-bold uppercase text-center -mt-32 pt-32 text-white font-warp text-transparent bg-clip-text bg-gradient-to-r from-[#ff0058] to-[#03a9f4]">Purchase Credits</h1>
-        <div class="container">
+        <div class="container lg:ml-[6rem]">
             <div class="box">
                 <span></span>
                 <div class="content">
@@ -29,7 +29,6 @@
 {
   display: flex;
   justify-content: center;
-  margin-left: 6rem;
   align-items: center;
   flex-wrap: wrap;
   padding: 40px 0;

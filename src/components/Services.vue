@@ -1,5 +1,5 @@
 <template>
-<article class="wrapper">
+<article class="hidden lg:flex flex-col wrapper">
   <h2 class="text-5xl font-bold uppercase text-center mb-12 text-white font-warp">Some Services We Provide</h2>
   <div class="marquee">
     <div class="marquee__group">
@@ -127,9 +127,7 @@
 
 /* Parent wrapper */
 .wrapper {
-  display: flex;
   padding-top: 7rem;
-  flex-direction: column;
   gap: calc(clamp(10rem, 1rem + 40vmin, 30rem) / 14);
   margin: auto;
   max-width: 72rem;

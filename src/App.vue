@@ -4,7 +4,7 @@ import Footer from './components/Footer.vue'
 </script>
 
 <template>
-    <article class="bg-[#14171a]">
+    <article class="bg-[#14171a] overflow-x-hidden">
         <Navbar/>
         <RouterView />
         <Footer />

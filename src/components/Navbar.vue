@@ -26,7 +26,7 @@ export default {
 <template>
   <header class="px-2 sm:px-4 py-4 top-0 fixed w-full z-20 left-0" :class="{ 'backdrop-blur-[10px] saturate-[180%] bg-[rgba(0,0,0,0.5)] transition duration-500' : scrolled > 1, 'bg-transparent transition duration-200' : scrolled <= 1 }">
       <div class="container flex flex-wrap items-center justify-between mx-auto">
-          <a href="#" class="flex items-center">
+          <a href="/" class="flex items-center">
               <img src="../assets/altera-circle.png" alt="" class="w-10 h-10 mr-3"/>
               <h3 class="text-3xl uppercase text-slate-800 dark:text-white font-['Secular_One'] font-bold tracking-wider select-none">Altera SMS</h3>
           </a>

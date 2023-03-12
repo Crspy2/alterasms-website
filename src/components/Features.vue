@@ -5,7 +5,7 @@ import Cards from './Cards.vue';
 <template>
     <div class="py-32 h-screen" id="features">
         <div class="text-5xl font-bold uppercase text-center mb-12 text-white font-warp">An SMS platform built on your satisfaction</div>
-        <div class="w-full py-10 px-[10%] box-border">
+        <div class="w-full py-10 px-[10%] box-border ">
             <div class="clear-both p-0 m-0 zoom-1 after:clear-both after:content-[''] after:table before:content-[''] before:table">
                 <div class="block box-border float-left my-[1%] mx-0 lg:my-[1%] lg:mr-0 lg:ml-[1.6%] first:ml-0 span_1_of_2">
                     <div class="text-3xl text-white font-extrabold">
@@ -47,8 +47,8 @@ import Cards from './Cards.vue';
             </div>
         </div>
         <div class="w-full -pt-12 -mt-12 px-[10%] box-border">
-            <div class="clear-both p-0 m-0 zoom-1 after:clear-both after:content-[''] after:table before:content-[''] before:table">
-                <div class="block box-border float-left mt-4 mx-0 lg:mr-0 lg:ml-[1.6%] first:ml-0 span_1_of_2">
+            <div class="flex flex-col lg:flex-row clear-both p-0 m-0 zoom-1 after:clear-both after:content-[''] after:table before:content-[''] before:table">
+                <div class="order-2 lg:order-1 block box-border float-left mt-4 mx-0 lg:mr-0 lg:ml-[1.6%] first:ml-0 span_1_of_2">
                     <div class="select-none">
                         <div class="w-[280px] sm:w-[340px]">
                             <div class="text-left mb-2.5">
@@ -69,7 +69,7 @@ import Cards from './Cards.vue';
                         </div>
                     </div>
                 </div>
-                <div class="block box-border float-left my-[1%] mx-0 lg:my-[1%] lg:mr-0 lg:ml-[1.6%] first:ml-0 span_1_of_2">
+                <div class="order-1 lg:order-2 block box-border float-left my-[1%] mx-0 lg:my-[1%] lg:mr-0 lg:ml-[1.6%] first:ml-0 span_1_of_2">
                     <div class="text-3xl mt-16 font-extrabold text-white">
                         Great Support
                     </div>
@@ -81,8 +81,8 @@ import Cards from './Cards.vue';
             </div>
         </div>
     </div>
-    <div class="w-full py-10 px-[10%] box-border">
-            <div class="flex flex-row clear-both p-0 m-0 zoom-1 after:clear-both after:content-[''] after:table before:content-[''] before:table">
+    <div class="w-full top-6 py-10 px-[10%] box-border">
+            <div class="flex-row hidden lg:flex clear-both p-0 m-0 zoom-1 after:clear-both after:content-[''] after:table before:content-[''] before:table">
                 <div class="block box-border float-left my-[1%] mx-0 lg:my-[1%] lg:mr-0 lg:ml-[1.6%] first:ml-0 span_1_of_2">
                     <div class="text-3xl text-white font-extrabold">
                         Accepting Various Payment Methods
