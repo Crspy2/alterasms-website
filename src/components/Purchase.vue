@@ -6,11 +6,9 @@
                 <span></span>
                 <div class="content">
                     <h2 class="font-warp">Altera SMS Credits</h2>
-                    <p class="font-neon">Credits for our discord bot so that you can generate numbers and check for incomming 2fa codes.</p>
+                    <p class="font-neon">Credits for our discord bot that are used when checking for incomming 2fa codes.</p>
                     <button
                         data-sellix-product="640d631074c7d"
-                        data-sellix-custom-reference="12345678"
-                        data-sellix-custom-discord="@Sample#8634"
                         type="submit"
                         alt="Buy Now with sellix.io"
                         class="button-86" 

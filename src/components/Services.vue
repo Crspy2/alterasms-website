@@ -1,6 +1,6 @@
 <template>
 <article class="hidden lg:flex flex-col wrapper">
-  <h2 class="text-5xl font-bold uppercase text-center mb-12 text-white font-warp">Some Services We Provide</h2>
+  <h2 class="text-5xl font-bold uppercase text-center mb-12 text-white font-warp">A Wide Range of Supported Services</h2>
   <div class="marquee">
     <div class="marquee__group">
       <img src="/services/blizzard.png" class="image"/>
