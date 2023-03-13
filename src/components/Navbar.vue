@@ -31,10 +31,10 @@ export default {
               <h3 class="text-3xl uppercase text-slate-800 dark:text-white font-['Secular_One'] font-bold tracking-wider select-none">Altera SMS</h3>
           </a>
           <div class="flex md:order-2">
-              <a href="https://discord.crspy.cc" target="_blank" class="text-zinc-300 hover:text-zinc-400 text-xl pl-2 pr-2 py-1 text-center md:mr-0">
+              <a href="https://discord.gg/alterasms" target="_blank" class="text-zinc-300 hover:text-zinc-400 text-xl pl-2 pr-2 py-1 text-center md:mr-0">
                   <v-icon name="fa-discord" scale="1.20" />
               </a>
-              <a href="https://store.crspy.cc/?browse=terms" target="_blank">
+              <a href="/tos" target="_blank">
                   <button type="button" class="text-zinc-300 hover:text-zinc-400 font-bold rounded-lg text-sm px-3 py-2.5 text-center md:mr-0 mr-3 select-none">
                       TOS
                   </button>
