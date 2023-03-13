@@ -176,13 +176,14 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   z-index: 1;
-  transform: 0.5s;
+  transform: 0.05s;
   color: #fff;
 }
 
 .container .box:hover .content
 {
   left: -25px;
+  transition: 0.5s;
   padding: 60px 40px;
 }
 
