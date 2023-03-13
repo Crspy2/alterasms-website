@@ -9,7 +9,7 @@ import DiscordEmbed from './DiscordEmbed.vue'
             <div class="flex flex-col gap-16 text-center items-center lg:items-left lg:text-left">
                 <div class="mt-5">
                     <h2 class="text-white font-warp text-5xl lg:text-7xl">Altera SMS</h2>
-                    <p class="text-white font-neon text-xl lg:text-2xl">Cheap, Authentic, Reliable & Easy to Use</p>
+                    <p class="text-white font-neon text-xl lg:text-2xl">Cheap, Reliable & Easy to Use</p>
                 </div>
                 <div class="pt-10 lg:pt-0">
                     <DiscordEmbed />
