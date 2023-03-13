@@ -3,7 +3,7 @@ import Cards from './Cards.vue';
 </script>
 
 <template>
-    <div class="py-32 h-screen" id="features">
+    <div class="py-32 h-full" id="features">
         <h1 class="text-5xl font-bold uppercase text-center mb-12 text-white font-warp">
             An SMS platform built on your satisfaction
         </h1>
@@ -135,5 +135,72 @@ import Cards from './Cards.vue';
 
 .saving span:nth-child(3) {
     animation-delay: .4s;
+}
+
+
+.marquee {
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: calc(clamp(10rem, 1rem + 40vmin, 30rem) / 14);
+  mask-image: linear-gradient(
+    var(--mask-direction, to right),
+    hsl(0 0% 0% / 0),
+    hsl(0 0% 0% / 1) 20%,
+    hsl(0 0% 0% / 1) 80%,
+    hsl(0 0% 0% / 0)
+  );
+}
+
+.marquee__group {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: calc(clamp(10rem, 1rem + 40vmin, 30rem) / 14);
+  min-width: 100%;
+  animation: scroll-x 30s linear infinite;
+}
+
+.marquee__group > .image {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(39 39 42);
+    border-radius: 30px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee__group {
+    animation-play-state: paused;
+  }
+}
+
+.marquee--reverse .marquee__group {
+  animation-direction: reverse;
+  animation-delay: -3s;
+}
+
+@keyframes scroll-x {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - calc(clamp(10rem, 1rem + 40vmin, 30rem) / 14)));
+  }
+}
+
+@keyframes scroll-y {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-100% - calc(clamp(10rem, 1rem + 40vmin, 30rem) / 14)));
+  }
+}
+
+.wrapper {
+  padding-top: 15rem;
+  gap: calc(clamp(10rem, 1rem + 40vmin, 30rem) / 14);
+  margin: auto;
+  max-width: 72rem;
 }
 </style>

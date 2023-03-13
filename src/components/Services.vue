@@ -1,5 +1,5 @@
 <template>
-<article class="hidden lg:flex flex-col wrapper">
+<div class="hidden lg:flex flex-col wrapper">
   <h2 class="text-5xl font-bold uppercase text-center mb-12 text-white font-warp">A Wide Range of Supported Services</h2>
   <div class="marquee">
     <div class="marquee__group">
@@ -56,8 +56,7 @@
       <img src="/services/zelle.png" class="image"/>
     </div>
   </div>
-</article>
-
+</div>
 </template>
 
 <style scoped>
@@ -126,7 +125,6 @@
 }
 
 .wrapper {
-  padding-top: 15rem;
   gap: calc(clamp(10rem, 1rem + 40vmin, 30rem) / 14);
   margin: auto;
   max-width: 72rem;
