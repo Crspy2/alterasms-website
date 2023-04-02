@@ -4,26 +4,26 @@
   <div class="marquee">
     <div class="marquee__group">
       <img src="/services/blizzard.png" class="image"/>
-      <img src="/services/coinbase.png" class="image"/>
-      <img src="/services/firebase.png" class="image"/>
+      <img src="/services/adobe.png" class="image"/>
+      <img src="/services/doordash.png" class="image"/>
       <img src="/services/g2g.png" class="image"/>
       <img src="/services/openAI.png" class="image"/>
       <img src="/services/riot.jpg" class="image"/>
       <img src="/services/roblox.png" class="image"/>
-      <img src="/services/skrill.png" class="image"/>
+      <img src="/services/g2a.png" class="image"/>
       <img src="/services/steam.png" class="image"/>
       <img src="/services/ubisoft.png" class="image"/>
     </div>
 
     <div aria-hidden="true" class="marquee__group">
       <img src="/services/blizzard.png" class="image"/>
-      <img src="/services/coinbase.png" class="image"/>
-      <img src="/services/firebase.png" class="image"/>
+      <img src="/services/adobe.png" class="image"/>
+      <img src="/services/doordash.png" class="image"/>
       <img src="/services/g2g.png" class="image"/>
       <img src="/services/openAI.png" class="image"/>
       <img src="/services/riot.jpg" class="image"/>
       <img src="/services/roblox.png" class="image"/>
-      <img src="/services/skrill.png" class="image"/>
+      <img src="/services/g2a.png" class="image"/>
       <img src="/services/steam.png" class="image"/>
       <img src="/services/ubisoft.png" class="image"/>
     </div>
@@ -31,29 +31,29 @@
 
   <div class="marquee marquee--reverse">
     <div class="marquee__group">
-      <img src="/services/cashapp.png" class="image"/>
+      <img src="/services/faceit.png" class="image"/>
       <img src="/services/ea.png" class="image"/>
       <img src="/services/discord.png" class="image"/>
-      <img src="/services/paypal.png" class="image"/>
+      <img src="/services/houseparty.png" class="image"/>
       <img src="/services/spotify.png" class="image"/>
-      <img src="/services/square.png" class="image"/>
-      <img src="/services/stripe.png" class="image"/>
+      <img src="/services/snapchat.png" class="image"/>
+      <img src="/services/instagram.png" class="image"/>
       <img src="/services/xbox.png" class="image"/>
-      <img src="/services/Venmo.png" class="image"/>
-      <img src="/services/zelle.png" class="image"/>
+      <img src="/services/uber.png" class="image"/>
+      <img src="/services/pinterest.png" class="image"/>
     </div>
 
     <div aria-hidden="true" class="marquee__group">
-      <img src="/services/cashapp.png" class="image"/>
+      <img src="/services/faceit.png" class="image"/>
       <img src="/services/ea.png" class="image"/>
       <img src="/services/discord.png" class="image"/>
-      <img src="/services/paypal.png" class="image"/>
+      <img src="/services/houseparty.png" class="image"/>
       <img src="/services/spotify.png" class="image"/>
-      <img src="/services/square.png" class="image"/>
-      <img src="/services/stripe.png" class="image"/>
+      <img src="/services/snapchat.png" class="image"/>
+      <img src="/services/instagram.png" class="image"/>
       <img src="/services/xbox.png" class="image"/>
-      <img src="/services/Venmo.png" class="image"/>
-      <img src="/services/zelle.png" class="image"/>
+      <img src="/services/uber.png" class="image"/>
+      <img src="/services/pinterest.png" class="image"/>
     </div>
   </div>
 </div>
