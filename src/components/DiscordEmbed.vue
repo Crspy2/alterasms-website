@@ -32,7 +32,7 @@
                         </div>
                         <div>
                             <h3 class="text-white text-[13px] font-semibold">Message Rate:</h3>
-                            <p class="text-zinc-300 text-[13px] md:text-[11px] md:font-discordCode md:bg-zinc-900 pl-[2px] w-[38px] rounded">$1.25</p>
+                            <p class="text-zinc-300 text-[13px] md:text-[11px] md:font-discordCode md:bg-zinc-900 pl-[2px] w-[38px] rounded">$0.48</p>
                         </div>
                         <div>
                             <h3 class="text-white text-[13px] font-semibold">Country:</h3>
